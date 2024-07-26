@@ -1,0 +1,56 @@
+body {
+    background-color: lightgrey;
+}
+
+.todo-container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task span {
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: red;
+  border-radius: none;
+  border-color: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
